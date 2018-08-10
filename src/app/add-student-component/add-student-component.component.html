@@ -1,0 +1,15 @@
+<h2>Student CRUD:</h2>
+<div class="field">
+  <input class="input" [(ngModel)]='name' type="string" name="name" placeholder="Enter the name of the student">
+  <input class="input" [(ngModel)]='lastname' type="string" name="lastname" placeholder="Enter the name of the student">
+  <input class="input" [(ngModel)]='dni' type="string" name="dni" placeholder="Enter the dni of the student">
+</div>
+
+<div class="btn-div">
+  <button class="btn" (click)='onSubmit()'>Submit</button>
+</div>
+
+<div class="result">
+  <h3>The result is:</h3>
+  <label>{{result}}</label>
+</div>
